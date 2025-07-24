@@ -6,7 +6,7 @@ import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 //image
-import bg0 from "@/assets/img/bg9.jpg";
+import bg0 from "@/assets/img/fondo_home.jpg";
 
 //dep
 import Typed from "typed.js";
@@ -60,12 +60,12 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Work with an amazing <span class="text-white" id="typed"></span>
+              We are <span class="color-verde" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>team</h1>
-              <h1>design</h1>
-              <h1>tool</h1>
+              <h1>Technology</h1>
+              <h1>your Solution</h1>
+              <h1>Sice TS</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
               We’re constantly trying to express ourselves and actualize our
@@ -102,3 +102,9 @@ onUnmounted(() => {
   </div>
   <DefaultFooter />
 </template>
+
+<style>
+.color-verde {
+  color: green !important;
+}
+</style>

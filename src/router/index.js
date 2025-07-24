@@ -28,13 +28,13 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "presentation",
-      component: PresentationView,
+      name: "about",
+      component: AboutView,
     },
     {
       path: "/pages/landing-pages/about-us",
-      name: "about",
-      component: AboutView,
+      name: "presentation",
+      component: PresentationView,
     },
     {
       path: "/pages/landing-pages/contact-us",

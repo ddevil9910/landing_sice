@@ -161,6 +161,18 @@ watch(
         id="navigation"
       >
         <ul class="navbar-nav navbar-nav-hover ms-auto">
+          <!--Inicia Link para HOME-->
+
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              href="/"
+              class="nav-link d-flex cursor-pointer align-items-center"
+            >
+              HOME
+            </a>
+          </li>
+          <!--Termina Link para HOME-->
+          
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
