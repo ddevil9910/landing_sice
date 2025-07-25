@@ -33,15 +33,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
-        </div>
-        <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5"
-            :image="william"
-            :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
+       
           />
         </div>
       </div>
@@ -55,16 +47,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
-        </div>
-        <div class="col-lg-6 col-12">
-          <HorizontalTeamCard
-            class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
-            :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
-            description="Artist is a term applied to a person who engages in an
-                    activity deemed to be an art."
-          />
+       
         </div>
       </div>
     </div>

@@ -60,20 +60,24 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              We are <span class="color-verde" id="typed"></span>
+              Bienvenido <span class="color-Rojo" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>Technology</h1>
-              <h1>your Solution</h1>
-              <h1>Sice TS</h1>
+              <h1>a</h1>
+              <h1>Sice</h1>
+              <h1>Online</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              Con más de 20 años de experiencia te ofrecemos servicios contables, administrativos y facturación electrónica con el profesionalismo que buscas
             </p>
             <button type="submit" class="btn bg-white text-dark">
-              Create Account
+              iR A FACTURAR
             </button>
+
+             <button type="submit" class="btn bg-white text-dark">
+               SABER MÁS
+            </button>
+
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"
@@ -104,7 +108,7 @@ onUnmounted(() => {
 </template>
 
 <style>
-.color-verde {
-  color: green !important;
+.color-Rojo {
+  color: Red !important;
 }
 </style>

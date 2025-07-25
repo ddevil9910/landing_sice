@@ -187,7 +187,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+               SERVICIOS
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -198,7 +198,8 @@ watch(
                 alt="down-arrow"
                 class="arrow ms-1 d-lg-none d-block ms-auto"
               />
-            </a>
+              
+             </a>
             <div
               class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
               aria-labelledby="dropdownMenuPages"
@@ -297,7 +298,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Sections
+              ACCESO A CLIENTES
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -780,7 +781,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Docs
+              HERRAMIENTAS
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
