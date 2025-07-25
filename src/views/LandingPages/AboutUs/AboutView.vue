@@ -60,25 +60,24 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Bienvenido <span class="color-Rojo" id="typed"></span>
+              Sice es <span class="red-sice" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>a</h1>
-              <h1>Sice</h1>
-              <h1>Online</h1>
+              <h1>estrategia</h1>
+              <h1>tecnologia</h1>
+              <h1>tu solucion</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
               Con más de 20 años de experiencia te ofrecemos servicios contables, administrativos y facturación electrónica con el profesionalismo que buscas
             </p>
-            <button type="submit" class="btn bg-white text-dark">
-              iR A FACTURAR
-            </button>
-
-             <button type="submit" class="btn bg-white text-dark">
-               SABER MÁS
-            </button>
-
-            <h6 class="text-white mb-2 mt-5">Find us on</h6>
+            <div>
+              <button type="submit" class="btn bg-white text-dark">
+                iR A FACTURAR
+              </button>
+              <button type="submit" class="btn bg-white text-dark space-buttons-header">
+                SABER MÁS
+              </button>
+            </div>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"
                 ><i class="fab fa-facebook text-lg text-white me-4"></i
@@ -107,8 +106,11 @@ onUnmounted(() => {
   <DefaultFooter />
 </template>
 
-<style>
-.color-Rojo {
-  color: Red !important;
+<style scoped>
+.red-sice {
+  color: #cc1d1d;
+}
+.space-buttons-header{
+  margin-left: 10px;
 }
 </style>
