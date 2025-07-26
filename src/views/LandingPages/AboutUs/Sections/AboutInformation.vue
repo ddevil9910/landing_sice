@@ -1,6 +1,7 @@
 <script setup>
 // example components
-import rocket from "@/assets/img/cohete.png";
+import ideas from "@/assets/img/ideas.jpg";
+import office from "@/assets/img/oficina.jpg";
 
 function randomStyle(i) {
   // Genera estilos aleatorios para cada partícula
@@ -15,7 +16,7 @@ function randomStyle(i) {
     left: `${left}%`,
     animationDuration: `${duration}s`,
     animationDelay: `${delay}s`,
-    background: 'radial-gradient(circle, rgba(137, 183, 233,1) 0%, rgba(0,123,255,0) 60%)',
+    background: 'radial-gradient(circle, rgba(163, 163, 163, 1) 0%, rgba(0,123,255,0) 60%)',
     opacity,
   };
 }
@@ -51,16 +52,20 @@ function randomStyle(i) {
                    impartidas por nuestros especialistas en cada área.</p>
               </div>
               <div class="col-12 col-md-6">
-                <img :src="rocket" class="rocket-image">
+                <img :src="ideas" class="ideas-image">
               </div>
             </div>
             <div class="row elevated-card space-sup">
               <div class="col-12 col-md-6">
-                <img src="" alt="">
+                <img :src="office" class="ideas-image">
               </div>
               <div class="col-12 col-md-6">
                 <h1 class="blue-sice" >VALORES</h1>
-              </div> 
+                <p> <span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #cf2e2e; text-transform: uppercase;">S</span></b></span><span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #0693e3;">eguridad</span></b></span><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #748182;">. Brindar a nuestros clientes las mejores estrategias de crecimiento empresarial respaldándonos en la ética profesional con la que cuenta cada integrante de SICE.</span></p>
+                <p> <span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #cf2e2e; text-transform: uppercase;">I</span></b></span><span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #0693e3;">ntegridad</span></b></span><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #748182;">. Poner al servicio de nuestros clientes personal ético, profesional y responsable, que brinde apropiadamente nuestra amplia gama de servicios y asesorías.</span></p>             
+                <p> <span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #0693e3;">C</span></b></span><span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #cf2e2e;">alidad</span></b></span><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #748182;">. Presentar proyectos organizados, dirigidos y éticos que ayuden a nuestros clientes a tener un desarrollo empresarial exitoso.</span></p>
+                <p> <span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #0693e3;">E</span></b></span><span class="has-inline-color"><b><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #cf2e2e;">strategia</span></b></span><span style="font-size: 11.5pt; font-family: 'Arial',sans-serif; color: #748182;">. Sugerir los procedimientos y mecanismos más adecuados que lleven al cumplimiento de las metas de nuestros clientes, sin poner en riesgo su seguridad administrativa o financiera y a su vez cumpliendo con los objetivos trazados que sean redituables y confortables para nuestros clientes.</span></p>
+             </div> 
             </div>
           </div>
         </div>
@@ -73,7 +78,7 @@ function randomStyle(i) {
 .full-width{
   width: 100%;
 }
-.rocket-image{
+.ideas-image{
   max-width: 100%;
 }
 .red-sice {
@@ -91,7 +96,7 @@ function randomStyle(i) {
   margin-top: 20px;
 }
 
-
+/*estilos delas particulas*/ 
 
 .row-with-particles {
   position: relative;
