@@ -22,7 +22,7 @@ import Omar from "@/assets/img/Omorales.png";
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
           <HorizontalTeamCard
             class="mt-4"
             :image="Julissa"
@@ -31,13 +31,9 @@ import Omar from "@/assets/img/Omorales.png";
             description="Contadora Pública egresada de la Escuela Superior de Comercio y 
             Administración (I.P.N.), con 10 años de experiencia en materia fiscal y
              contable."
-       
           />
-
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
             :image="Omar"
@@ -47,7 +43,6 @@ import Omar from "@/assets/img/Omorales.png";
              Administración (I.P.N.), con más de 15 años de experiencia en materia fiscal  
              contable y catedrático del Instituto Universitario Anáhuac."
           />
-       
         </div>
       </div>
     </div>

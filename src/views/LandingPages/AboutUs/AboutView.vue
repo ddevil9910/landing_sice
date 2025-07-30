@@ -71,10 +71,10 @@ onUnmounted(() => {
               Con más de 20 años de experiencia te ofrecemos servicios contables, administrativos y facturación electrónica con el profesionalismo que buscas
             </p>
             <div>
-              <button type="submit" class="btn bg-white text-dark">
+              <button id="gotofac" type="submit" class="btn">
                 IR A FACTURAR
               </button>
-              <button type="submit" class="btn bg-white text-dark space-buttons-header">
+              <button id="learn" type="submit" class="btn space-buttons-header">
                 SABER MÁS
               </button>
             </div>
@@ -112,5 +112,21 @@ onUnmounted(() => {
 }
 .space-buttons-header{
   margin-left: 10px;
+}
+
+#gotofac{
+  background:#3576de;
+  color: #fff;
+}
+#gotofac:hover {
+  background-color: #2a5db0;
+}
+
+#learn{
+  background:#3576de ;
+  color: #fff
+}
+#learn:hover{
+  background:#2a5db0 ;
 }
 </style>

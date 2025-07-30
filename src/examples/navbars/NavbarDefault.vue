@@ -2,6 +2,7 @@
 import { RouterLink } from "vue-router";
 import { ref, watch } from "vue";
 import { useWindowsWidth } from "../../assets/js/useWindowsWidth";
+import logo from "../../assets/img/logosice.svg"
 
 // images
 import ArrDark from "@/assets/img/down-arrow-dark.svg";
@@ -91,11 +92,11 @@ watch(
 </script>
 <template>
   <nav
-    class="navbar navbar-expand-lg top-0"
+    class="navbar navbar-expand-lg top-0 bg-navabar"
     :class="{
-      'z-index-3 w-100 shadow-none navbar-transparent position-absolute my-3':
+      'z-index-3 w-100 shadow-none navbar-transparent  ':
         props.transparent,
-      'my-3 blur border-radius-lg z-index-3 py-2 shadow py-2 start-0 end-0 mx-4 position-absolute mt-4':
+      'my-3 blur border-radius-lg z-index-3 py-2 shadow py-2 start-0 end-0 mx-4  ':
         props.sticky,
       'navbar-light bg-white py-3': props.light,
       ' navbar-dark bg-gradient-dark z-index-3 py-3': props.dark
@@ -120,7 +121,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2
+        <img :src="logo" alt="" style="width: 35%;">
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -955,3 +956,10 @@ watch(
   </nav>
   <!-- End Navbar -->
 </template>
+
+<style>
+.bg-navabar{
+  background-color: #ffffff;
+  position: sticky !important;
+}
+</style>

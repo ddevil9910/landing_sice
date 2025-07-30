@@ -1,7 +1,6 @@
 <script setup>
 // example component
 import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultCounterCard.vue";
-import computer from "@/assets/img/computadora.png";
 </script>
 <template>
   <section class="pt-4 pb-6" id="count-stats">
@@ -52,14 +51,18 @@ import computer from "@/assets/img/computadora.png";
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
-          <DefaultCounterCard
-           
-            description="Nuestro equipo tiene un alto nivel de capacitación en
+          <div class="row">
+            <div class="col-12">
+              <img src="" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p>Nuestro equipo tiene un alto nivel de capacitación en
              las nuevas tecnologías lo que hace que los procesos sean mas rápidos, 
-             eficaces y seguros para ti y tu empresa."
-            :image="5234"
-            :duration="3000"
-          />
+             eficaces y seguros para ti y tu empresa.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
