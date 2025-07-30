@@ -124,11 +124,7 @@ watch(
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
-        :class="
-          props.transparent || props.dark
-            ? 'text-white'
-            : 'font-weight-bolder ms-sm-3'
-        "
+        
         to="/"
         rel="tooltip"
         title="Designed and Coded by Creative Tim"

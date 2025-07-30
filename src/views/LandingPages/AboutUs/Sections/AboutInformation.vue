@@ -16,7 +16,7 @@ function randomStyle(i) {
     left: `${left}%`,
     animationDuration: `${duration}s`,
     animationDelay: `${delay}s`,
-    background: 'radial-gradient(circle, rgba(163, 163, 163, 1) 0%, rgba(0,123,255,0) 60%)',
+    background: 'radial-gradient(circle, rgba(106, 147, 185, 1) 0%, rgba(0,123,255,0) 60%)',
     opacity,
   };
 }

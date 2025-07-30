@@ -1,6 +1,7 @@
 <script setup>
 // example component
 import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultCounterCard.vue";
+import computer from "@/assets/img/computadora.png";
 </script>
 <template>
   <section class="pt-4 pb-6" id="count-stats">
@@ -52,16 +53,20 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Projects"
-            description="Of “high-performing” level are led by a certified project manager"
-            :count="5234"
+           
+            description="Nuestro equipo tiene un alto nivel de capacitación en
+             las nuevas tecnologías lo que hace que los procesos sean mas rápidos, 
+             eficaces y seguros para ti y tu empresa."
+            :image="5234"
             :duration="3000"
           />
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Hours"
-            description="That meets quality standards required by our users"
+           
+            description="Todos nuestros servicios buscan darte la mejor
+             atención para que tengas el resultado que tanto 
+             deseas y hagas crecer tu negocio tanto como quieras."
             :count="3400"
             suffix="+"
             :duration="3000"
@@ -69,8 +74,11 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-            title="Support"
-            description="Actively engage team members that finishes on time"
+           
+            description="Nuestros servicios son totalmente realizados por 
+            un equipo de profesionales con una basta 
+            experiencia en el campo laboral para ofrecerte
+             un equipo confiable."
             :count="24"
             suffix="/7"
             :duration="4000"

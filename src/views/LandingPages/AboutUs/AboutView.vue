@@ -73,12 +73,6 @@ onUnmounted(() => {
             <div>
               <button type="submit" class="btn bg-white text-dark">
                 IR A FACTURAR
-                <span class="h-button__outer style-330-outer style-local-7-h30-outer d-inline-flex h-element">
-  <a h-use-smooth-scroll="true" href="https://siceonline.com/sice-facturacion/" data-colibri-id="7-h30" class="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-330 style-local-7-h30 position-relative">
-    <span>
-      IR A FACTURAR    </span>
-  </a>
-</span>
               </button>
               <button type="submit" class="btn bg-white text-dark space-buttons-header">
                 SABER MÁS
