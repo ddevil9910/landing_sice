@@ -8,8 +8,8 @@ export function useWindowsWidth() {
   onUnmounted(() => window.removeEventListener("resize", onWidthChange));
 
   const type = computed(() => {
-    if (windowWidth.value < 992) return "mobile";
-    if (windowWidth.value >= 992) return "desktop";
+    if (windowWidth.value < 900) return "mobile";
+    if (windowWidth.value >= 900) return "desktop";
     return null; // This is an unreachable line, simply to keep eslint happy.
   });
 
