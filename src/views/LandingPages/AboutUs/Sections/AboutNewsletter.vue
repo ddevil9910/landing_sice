@@ -1,54 +1,77 @@
 <script setup>
-import { onMounted } from "vue";
 //Vue Material Kit 2 components
 import MaterialInput from "@/components/MaterialInput.vue";
+import MaterialTextArea from "@/components/MaterialTextArea.vue";
 import MaterialButton from "@/components/MaterialButton.vue";
-
-// material-input
-import setMaterialInput from "@/assets/js/material-input";
-onMounted(() => {
-  setMaterialInput();
-});
+import MaterialSwitch from "@/components/MaterialSwitch.vue";
 </script>
 <template>
-  <section class="my-5 pt-5">
-    <div class="container">
+  <section>
+    <div class="container py-4">
       <div class="row">
-        <div class="col-md-6 m-auto">
-          <h4>Be the first to see the news</h4>
-          <p class="mb-4">
-            Your company may not be in the software business, but eventually, a
-            software company will be in your business.
-          </p>
-          <div class="row">
-            <div class="col-8">
-              <MaterialInput
-                class="input-group-outline"
-                id="email"
-                :label="{ text: 'Email Here...', class: 'form-label' }"
-                type="email"
-              />
-            </div>
-            <div class="col-4 ps-0">
-              <MaterialButton
-                variant="gradient"
-                color="success"
-                class="mb-0 h-100 position-relative z-index-2"
-                >Subscribe</MaterialButton
+        <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+          <h3 class="text-center">Contacto</h3>
+          <form role="form" id="contact-form" method="post" autocomplete="off">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <MaterialInput
+                    class="input-group-dynamic mb-4"
+                    :label="{ text: 'Nombre(s)', class: 'form-label' }"
+                    type="text"
+                  />
+                </div>
+                <div class="col-md-6 ps-2">
+                  <MaterialInput
+                    class="input-group-dynamic"
+                    :label="{ text: 'Apellido(s)', class: 'form-label' }"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <MaterialInput
+                  class="input-group-dynamic"
+                  :label="{ text: 'Email', class: 'form-label' }"
+                  type="email"
+                />
+              </div>
+              <MaterialTextArea
+                class="input-group-static mb-4"
+                id="message"
+                :rows="4"
+                >Asunto</MaterialTextArea
               >
             </div>
-          </div>
-        </div>
-        <div class="col-md-5 ms-auto mt-6 md-mt-0">
-          <div class="position-relative">
-            <img
-              class="max-width-50 w-100 position-relative z-index-2"
-              src="@/assets/img/macbook.png"
-              alt="image"
-            />
-          </div>
+            <div class="row">
+              <div class="col-md-12">
+                <MaterialSwitch
+                  class="mb-4 d-flex align-items-center"
+                  id="flexSwitchCheckDefault"
+                  checked
+                  labelClass="ms-3 mb-0"
+                >
+                  I agree to the
+                  <a href="javascript:;" class="text-dark"
+                    ><u>Terms and Conditions</u></a
+                  >.
+                </MaterialSwitch>
+
+                <div class="col-md-12">
+                  <MaterialButton
+                    type="submit"
+                    variant="gradient"
+                    color="dark"
+                    fullWidth
+                    >Enviar mensaje</MaterialButton
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
 </template>
+

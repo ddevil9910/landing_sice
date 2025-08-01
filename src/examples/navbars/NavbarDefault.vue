@@ -164,6 +164,7 @@ watch(
             <a
               href="/"
               class="nav-link d-flex cursor-pointer align-items-center"
+              style="color: #CC1D1D;"
             >
               HOME
             </a>
@@ -183,17 +184,28 @@ watch(
                 class="material-icons opacity-6 me-2 text-md"
                 :class="getTextColor()"
                 >dashboard</i
-              >
-               SERVICIOS
+              >   
+          <!--Inicia Link para SERVICIOS-->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              href="/"
+              class="nav-link d-flex cursor-pointer align-items-center"
+              style="color: #CC1D1D;"
+            >
+              SERVICIOS
+            </a>
+          </li>
+          <!--Termina Link para SERVICIOS-->
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
                 class="arrow ms-2 d-lg-block d-none"
+              
               />
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
-                class="arrow ms-1 d-lg-none d-block ms-auto"
+                class="arrow ms-1 d-lg-none d-block ms-auto"   
               />
               
              </a>
@@ -295,7 +307,22 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
+              <i
+                class="material-icons opacity-6 me-2 text-md"
+                :class="getTextColor()"
+                >dashboard</i
+              >   
+          <!--Inicia Link para ACCESO A CLIENTES-->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              href="/"
+              class="nav-link d-flex cursor-pointer align-items-center"
+              style="color: #CC1D1D;"
+            >
               ACCESO A CLIENTES
+            </a>
+          </li>
+          <!--Termina Link para ACCESO A CLIENTES-->
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -778,7 +805,17 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
+              <!--Inicia Link para HERRAMIENTAS-->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              href="/"
+              class="nav-link d-flex cursor-pointer align-items-center"
+              style="color: #CC1D1D;"
+            >
               HERRAMIENTAS
+            </a>
+          </li>
+          <!--Termina Link para HERRAMIENTAS-->
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -963,3 +1000,4 @@ watch(
   position: sticky !important;
 }
 </style>
+ 

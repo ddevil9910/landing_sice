@@ -65,26 +65,20 @@ import DefaultCounterCard from "../../../../examples/cards/counterCards/DefaultC
           </div>
         </div>
         <div class="col-md-3">
-          <DefaultCounterCard
+          
            
-            description="Todos nuestros servicios buscan darte la mejor
+            Todos nuestros servicios buscan darte la mejor
              atención para que tengas el resultado que tanto 
-             deseas y hagas crecer tu negocio tanto como quieras."
-            :count="3400"
-            suffix="+"
-            :duration="3000"
+             deseas y hagas crecer tu negocio tanto como quieras.
+            
           />
         </div>
         <div class="col-md-3">
           <DefaultCounterCard
-           
             description="Nuestros servicios son totalmente realizados por 
             un equipo de profesionales con una basta 
             experiencia en el campo laboral para ofrecerte
              un equipo confiable."
-            :count="24"
-            suffix="/7"
-            :duration="4000"
           />
         </div>
       </div>

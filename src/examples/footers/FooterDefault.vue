@@ -1,5 +1,5 @@
 <script setup>
-import logoDark from "@/assets/img/logo-ct-dark.png";
+import logoDark from "@/assets/img/mundosice.svg";
 defineProps({
   brand: {
     type: Object,
@@ -126,10 +126,10 @@ defineProps({
   <footer class="footer pt-5 mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 mb-4 ms-auto">
+        <div class="col-md-2 mb-4 ms-auto">
           <div>
             <a :href="brand.route">
-              <img :src="brand.logo" class="mb-3 footer-logo" alt="main_logo" />
+              <img :src="brand.logo" class="mb-3 logoDark" alt="main_logo" />
             </a>
             <h6 class="font-weight-bolder mb-4">{{ brand.name }}</h6>
           </div>
