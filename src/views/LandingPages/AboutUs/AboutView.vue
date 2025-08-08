@@ -60,12 +60,14 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Sice es <span class="red-sice" id="typed"></span>
+              SICE es <span class="red-sice" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>estrategia</h1>
-              <h1>tecnologia</h1>
-              <h1>tu solucion</h1>
+              <h1>Seguridad</h1>
+              <h1>Integridad</h1>
+              <h1>Calidad</h1>
+              <h1>Estrategia</h1>
+              <h1>Support for Business</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
               Con más de 20 años de experiencia te ofrecemos servicios contables, administrativos y facturación electrónica con el profesionalismo que buscas
@@ -108,25 +110,25 @@ onUnmounted(() => {
 
 <style scoped>
 .red-sice {
-  color: #cc1d1d;
+  color: #932732;
 }
 .space-buttons-header{
   margin-left: 10px;
 }
 
 #gotofac{
-  background:#3576de;
+  background: #2f6587;
   color: #fff;
 }
 #gotofac:hover {
-  background-color: #2a5db0;
+  background-color: #254a61ff;
 }
 
 #learn{
-  background:#3576de ;
+  background: #2f6587 ;
   color: #fff
 }
 #learn:hover{
-  background:#2a5db0 ;
+  background: #254a61ff ;
 }
 </style>
